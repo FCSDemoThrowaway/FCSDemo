@@ -3,6 +3,11 @@ using FCSDemo.Stores;
 
 namespace FCSDemo.Repositories
 {
+    //Data access lives here, abstracted from business logic.
+    //Again, the CUD methods are super splashy because they
+    //never get used, and for all I know they make everything catch fire,
+    //but it just doesn't feel right without them...
+    //
     public class MovieRepository : IRepository<Movie>
     {
         private IStore<Movie> _movieStore { get; set; }

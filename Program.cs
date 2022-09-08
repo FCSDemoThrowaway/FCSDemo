@@ -6,6 +6,7 @@ using FCSDemo.Stores;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
 //Dependency injection!
 builder.Services.AddSingleton<IStore<Movie>, MovieStore>();
 builder.Services.AddSingleton<IRepository<Movie>, MovieRepository>();
@@ -31,3 +32,21 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+string amiga =
+
+@"
+                       ONLY
+                  _    _ __    __
+            /|    /|  /| ||  //' |    /|
+           /||   /|| /|| || /|  __   /||
+          /-||  / ||/ || || ||  ||  /-||
+         /  || /  |/  || || \_\,|/ /  ||
+        ""  """"      "" ""   ""  ""  ""
+                MAKES IT POSSIBLE!
+
+    https://www.youtube.com/watch?v=PWeO5IkCssk
+
+          Thanks for the coffee, guys ;P
+              Great meeting you all!
+";
